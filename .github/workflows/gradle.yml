@@ -3,9 +3,6 @@ name: Gradle
 on:
   pull_request:
     branches: [ v1.* ]
-  pull_request_target:
-    branches: [ v1.* ]
-    types: [ closed ]
 
 jobs:
   build:

@@ -1,7 +1,7 @@
 name: Push Tag
 
 on:
-  pull_request_target:
+  pull_request:
     branches: [ v1.* ]
     types: [closed]
 
