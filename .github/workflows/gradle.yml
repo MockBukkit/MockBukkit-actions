@@ -32,10 +32,10 @@ jobs:
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build -x test
-    - name: Run unit tests
-      run: ./gradlew test
+#    - name: Build with Gradle
+#      run: ./gradlew build -x test
+#    - name: Run unit tests
+#      run: ./gradlew test
 
     - name: Get merged pull request
       uses: actions-ecosystem/action-get-merged-pull-request@v1.0.1
