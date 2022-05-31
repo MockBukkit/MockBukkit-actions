@@ -42,7 +42,7 @@ jobs:
       if: github.event_name == 'push'
       id: pr
       with:
-        github_token: ${{ GITHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Get release label
       uses: actions-ecosystem/action-release-label@v1
